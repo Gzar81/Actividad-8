@@ -1,0 +1,29 @@
+### OBTENER UN LISTADO DE TODOS LOS INMUEBLES
+GET http://localhost:3000/api/inmuebles
+
+### DAR DE ALTA UN NUEVO INMUEBLE
+POST http://localhost:3000/api/inmuebles
+Content-Type: application/json
+
+{
+  "piso": "3",
+  "letra": "B",
+  "extension": 117,
+  "numHabitaciones": 4,
+  "alquilado": false,
+  "nombrePropietario": "Gonzalo Atienzar",
+  "emailContacto": "Gonati@example.com"
+}
+
+### ACTUALIZAR LOS DATOS DE UN INMUEBLE
+PUT http://localhost:3000/api/inmuebles/645d6ae428a0119bed66d0b1
+Content-Type: application/json
+
+{
+    "alquilado": true
+    
+}
+
+
+### BORRAR LOS DATOS DE UN INMUEBLE
+DELETE http://localhost:3000/api/inmuebles/645d679097358edd2481704e
