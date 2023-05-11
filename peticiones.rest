@@ -6,17 +6,17 @@ POST http://localhost:3000/api/inmuebles
 Content-Type: application/json
 
 {
-  "piso": "3",
-  "letra": "B",
-  "extension": 117,
-  "numHabitaciones": 4,
+  "piso": "7",
+  "letra": "A",
+  "extension": 140,
+  "numHabitaciones": 5,
   "alquilado": false,
   "nombrePropietario": "Gonzalo Atienzar",
   "emailContacto": "Gonati@example.com"
 }
 
 ### ACTUALIZAR LOS DATOS DE UN INMUEBLE
-PUT http://localhost:3000/api/inmuebles/645d6ae428a0119bed66d0b1
+PUT http://localhost:3000/api/inmuebles/645d739ee9829b11ab5ba7a2
 Content-Type: application/json
 
 {
@@ -26,4 +26,4 @@ Content-Type: application/json
 
 
 ### BORRAR LOS DATOS DE UN INMUEBLE
-DELETE http://localhost:3000/api/inmuebles/645d679097358edd2481704e
+DELETE http://localhost:3000/api/inmuebles/645d77dcb40d5580a6334f5a
